@@ -1,0 +1,199 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPeBHiauQsdOyJoytDbVwbj",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/notGAYathri/Python-codes/blob/main/Python%233ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "bwekvIDWhg4m",
+        "outputId": "070b785c-7dea-4b2f-f9a0-046bafefcdb8"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter your number-13\n",
+            "absolute value of 13 is 13\n"
+          ]
+        }
+      ],
+      "source": [
+        "x=int(input(\"enter your number\"))\n",
+        "if x>0:\n",
+        "  print(\"absolute value of\",x,\"is\",x)\n",
+        "\n",
+        "else:\n",
+        "  x=x*(-1)\n",
+        "  print(\"absolute value of\",x,\"is\",x)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x=int(input(\"enter the marks: \"))\n",
+        "if x>80:\n",
+        "  print(\"A - you passed asshole\")\n",
+        "if x>60 and x<=80:\n",
+        "  print(\"C - you did ok kiddo\")\n",
+        "if x>50 and x<=60:\n",
+        "  print(\"C - you in middle ground,try to improve buddy\")\n",
+        "if x>45 and x<=50:\n",
+        "  print(\"D - ew no...the only D you should be getting is in your-\")\n",
+        "if x>=25 and x<=45:\n",
+        "  print(\"E - no wonder your parents hate u\")\n",
+        "if x<25:\n",
+        "  print(\"F - this why your parents love the neighbour's kid more\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "jcu6Exe-i6G0",
+        "outputId": "1f232e96-01a8-46e7-e245-ed52f9b884fc"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the marks: 74\n",
+            "C - you did ok kiddo\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x=int(input(\"no. of classes held:\"))\n",
+        "y=int(input(\"no. of classes attended:\"))\n",
+        "z=y/x*100\n",
+        "if z>75:\n",
+        "  print(z,\"%\")\n",
+        "  print(\"the student is allowed to write the exam\")\n",
+        "else:\n",
+        "  print(z,\"%\")\n",
+        "  print(\"the student is NOT allowed to write the exam\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "PHgD5PMnl-ij",
+        "outputId": "a6f6dd5a-4a48-4308-d977-e9b0f8c90f9c"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "no. of classes held:30\n",
+            "no. of classes attended:27\n",
+            "90.0 %\n",
+            "the student is allowed to write the exam\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "x=int(input(\"Choose among the following:  1.Addition  2.Subtraction  3.Multiply  4.Division   5.Modulus   6.FloorDivision   7.Exponent\"))\n",
+        "a=int(input(\"enter 1st number:\"))\n",
+        "b=int(input(\"enter 2nd number\"))\n",
+        "if x==1:\n",
+        "  print(a+b)\n",
+        "if x==2:\n",
+        "  print(a-b)\n",
+        "if x==3:\n",
+        "  print(a*b)\n",
+        "if x==4:\n",
+        "  print(a/b)\n",
+        "if x==5:\n",
+        "  print(a%b)\n",
+        "if x==6:\n",
+        "  print(a//b)\n",
+        "if x==7:\n",
+        "  print(a**b)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "QjrhyppGrqKi",
+        "outputId": "774f8dfc-1f35-4d5b-cd0d-0ef4a284de11"
+      },
+      "execution_count": 33,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Choose among the following:  1.Addition  2.Subtraction  3.Multiply  4.Division   5.Modulus   6.FloorDivision   7.Exponent1\n",
+            "enter 1st number20\n",
+            "enter 2nd number30\n",
+            "50\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "marks=int(input(\"enter 1st marks\"))\n",
+        "marks=int(input(\"enter 2nd marks\"))\n",
+        "marks=int(input(\"enter 3rd marks\"))\n",
+        "marks=int(input(\"enter 4th marks\"))\n",
+        "marks=int(input(\"enter 5th marks\"))\n",
+        "print(min(marks))\n",
+        "print(max(marks))"
+      ],
+      "metadata": {
+        "id": "XLjztSBO0jFH"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "OaOlh1cz1ObZ"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
